@@ -7,7 +7,7 @@
   "dependencies": {
     "@lerna-tutorial-two/all-types-package": "^0.0.0"
   },
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "nik-selecto <n.moiseienko@selectoglobal.com>",
   "homepage": "https://github.com/nik-selecto/lerna-tutorial-two#readme",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nik-selecto/lerna-tutorial-two.git"
+    "url": "https://github.com/nik-selecto/lerna-tutorial-two.git"
   },
   "bugs": {
     "url": "https://github.com/nik-selecto/lerna-tutorial-two/issues"
