@@ -7,6 +7,7 @@
   "dependencies": {
     "@lerna-tutorial-two/all-types-package": "^0.0.0"
   },
+  "private": false,
   "version": "0.1.0",
   "description": "> TODO: description",
   "author": "nik-selecto <n.moiseienko@selectoglobal.com>",
