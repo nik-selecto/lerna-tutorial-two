@@ -10,6 +10,7 @@
   "homepage": "https://github.com/nik-selecto/lerna-tutorial-two#readme",
   "license": "ISC",
   "main": "lib/all-types-package.js",
+  "typings": "lib/all-types-package.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"

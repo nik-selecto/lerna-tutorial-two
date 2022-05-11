@@ -1,11 +1,19 @@
 {
   "name": "@lerna-tutorial-two/car",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "npx tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@lerna-tutorial-two/all-types-package": "^0.0.0"
+  },
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "nik-selecto <n.moiseienko@selectoglobal.com>",
   "homepage": "https://github.com/nik-selecto/lerna-tutorial-two#readme",
   "license": "ISC",
   "main": "lib/car.js",
+  "typings": "lib/car.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -19,9 +27,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nik-selecto/lerna-tutorial-two.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/nik-selecto/lerna-tutorial-two/issues"
